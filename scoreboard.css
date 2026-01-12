@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital-7.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e9f2ef;
+
+}
+
+.scoreboard {
+    display: flex;
+    gap: 80px;
+    background: #1f2a54;
+    padding: 40px 60px;
+    border-radius: 16px;
+}
+
+.team {
+    text-align: center;
+    color: white;
+
+}
+
+.team h2 {
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.score {
+    width: 140px;
+    height: 90px;
+    background: black;
+    color: #ff4c4c;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-family: "Digital-7", monospace;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 14px;
+    font-size: 14px;
+    border: 1px solid rgba(255,255,255,0.4);
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(255,255,255,0.15);
+}
+
